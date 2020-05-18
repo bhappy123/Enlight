@@ -40,7 +40,7 @@ nav .nav-link button:hover{
 }
 main.index-head{
     height: 600px;
-    background: linear-gradient(rgba(0, 0, 0, 0.144), rgba(0, 0, 0, 0.075)), url('./images/slider.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.144), rgba(0, 0, 0, 0.075)), url('../images/slider.jpg');
     background-attachment: fixed;
     background-repeat: no-repeat;
     object-fit: contain;
@@ -149,7 +149,7 @@ section.vef-cards .vef-all-cards{
     margin-top: 400px;
     padding: 20px 0;
     width: 100%;
-    background: linear-gradient(60deg, rgba(29, 29, 29, 0.5), rgba(12, 12, 12, 0.356)), url('./images/bg1.jpg');
+    background: linear-gradient(60deg, rgba(29, 29, 29, 0.5), rgba(12, 12, 12, 0.356)), url('../images/bg1.jpg');
     background-attachment: fixed;
 }
 .why-vef h2{
@@ -243,7 +243,7 @@ section.vef-cards .vef-all-cards{
 .vef-works{
     padding: 20px 0;
     width: 100%;
-    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.815), rgba(255, 255, 255, 0.849)), url('./images/bg3.jpg');
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.815), rgba(255, 255, 255, 0.849)), url('../images/bg3.jpg');
     border-top: 2px solid rgb(21, 180, 180);
     background-attachment: fixed;
 }
@@ -662,8 +662,9 @@ section.vef-cards .vef-all-cards{
         width: 80%;
     }
     main.index-head{
+        margin-top: 70px;
         height: auto;
-        background: linear-gradient(rgba(0, 0, 0, 0.144), rgba(0, 0, 0, 0.075)), url('./images/slider.jpg');
+        background: linear-gradient(rgba(0, 0, 0, 0.144), rgba(0, 0, 0, 0.075)), url('../images/slider.jpg');
         background-attachment: fixed;
         object-fit: contain;
         background-position: center;
@@ -786,7 +787,7 @@ section.vef-cards .vef-all-cards{
         margin-top: 0px;
         padding: 20px 0;
         width: 100%;
-        background: linear-gradient(60deg, rgba(29, 29, 29, 0.5), rgba(12, 12, 12, 0.356)), url('./images/bg1.jpg');
+        background: linear-gradient(60deg, rgba(29, 29, 29, 0.5), rgba(12, 12, 12, 0.356)), url('../images/bg1.jpg');
         background-attachment: fixed;
     }
     .why-vef h2{
@@ -860,7 +861,7 @@ section.vef-cards .vef-all-cards{
 
     .vef-need{
         position: relative;
-        background: linear-gradient(rgba(214, 212, 212, 0.692), rgba(199, 197, 197, 0.74)), url('./images/bg2.jpg');
+        background: linear-gradient(rgba(214, 212, 212, 0.692), rgba(199, 197, 197, 0.74)), url('../images/bg2.jpg');
     }
     .vef-need .vef-need-img{
         display: none;
@@ -891,7 +892,7 @@ section.vef-cards .vef-all-cards{
     .vef-works{
         padding: 20px 0;
         width: 100%;
-        background: linear-gradient(to bottom, rgba(255, 255, 255, 0.815), rgba(255, 255, 255, 0.849)), url('./images/bg3.jpg');
+        background: linear-gradient(to bottom, rgba(255, 255, 255, 0.815), rgba(255, 255, 255, 0.849)), url('../images/bg3.jpg');
         border-top: 2px solid rgb(21, 180, 180);
         background-attachment: fixed;
     }
@@ -1193,7 +1194,14 @@ section.vef-cards .vef-all-cards{
         white-space: nowrap;
         text-align: center;
     }
-    
+    .footer-area .copyright_part_text p{
+        border-top: 2px solid gray;
+        text-align: center !important;
+        width: 100vw;
+        margin-left: 50%;
+        padding-top: 25px !important;
+
+    }
 }
 
 
